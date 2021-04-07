@@ -51,6 +51,15 @@ cd python
 python app.py
 ```
 
+#### 〰️ `Notes about Python Virtual Environments`
+
+Similar to Python, if you are unsure if you're using Python Virtual Environment features, it is safe to suggest that you're not. You are *strongly* recommended to using a Python Virtual Environment everywhere. You can really mess up your machine if you're too lazy and say "ehh, that seems like it's not important". It is.
+
+If you're interested in learning more about setting up Virtual Environments, I encourage you to read a few blogs on the topic. A personal recommendation would be
+
+- [Digital Ocean (macOS)](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-macos)
+- [Digital Ocean (Windows 10)](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-windows-10)
+
 ## 📝 `Dependencies`
 
 Refer to the file located at [docker/requirements.txt](docker/requirements.txt)
