@@ -66,7 +66,22 @@ Refer to the file located at [docker/requirements.txt](docker/requirements.txt)
 
 ## ⚙️ `How it works`
 
-The the script works:
+Let's take a second to do a nice John Madden play-by-play on this script:
+
+```python
+from jnpr.junos import Device
+from pprint import pprint
+import json
+
+
+with Device(host='dallas-fw0', user='automation', password='juniper123') as network_device:
+    try:
+        route_table = network_device.rpc.get_route_information({'format': 'json'})
+    except:
+        pass
+
+pprint(route_table)
+```
 
 - We need to import the PyEZ package into our script
 - Specifically, we are looking to import the `Device` method from the base `jnpr.junos` package
