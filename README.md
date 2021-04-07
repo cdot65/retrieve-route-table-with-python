@@ -39,7 +39,7 @@ If you are unsure if Docker is installed on your computer, then it's probably sa
 pip install -r docker/requirements.txt
 ```
 
-2. change into Ansible directory 
+2. change into Python directory 
 
 ```
 cd python
